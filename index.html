@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spot the Scam — Interactive Training</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Spot the Scam</h1>
+      <p class="lead">Read each message, then mark whether it's phishing, contains a suspicious link, or is an online scam. Click Submit to get feedback.</p>
+    </header>
+
+    <section id="messages"></section>
+
+    <div class="actions">
+      <button id="submitBtn" class="primary">Submit Answers</button>
+      <button id="resetBtn" class="muted">Reset</button>
+    </div>
+
+    <section id="results" class="results hidden" aria-live="polite"></section>
+
+    <footer>
+      <p>Examples use placeholder links (example.com) — clicking them will show details instead of navigating.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
